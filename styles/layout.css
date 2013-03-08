@@ -1,0 +1,66 @@
+/**
+ * Commons
+ */
+
+/* Clearfix */
+.cf:before,.cf:after{content:"";display:table}
+.cf:after{clear:both}
+.cf{*zoom:1}
+
+/* ALIGNEMENT */
+.vTop{vertical-align:top}
+.vBot{vertical-align:bottom}
+.vMid{vertical-align:middle}
+
+/* reset */
+.resetM{margin:0}
+.resetRight{margin-right:0;}
+.resetLeft{margin-left:0;}
+.resetP{padding:0}
+.resetBorder{border:0 none}
+.resetBg{background:none}
+
+/* flux */
+.fright{float:right}
+.fleft{float:left}
+.clear{clear:both}
+ .i-block{display:inline-block}
+.ie7 .i-block{display: inline}/*correct IE 7 bug inline-block*/
+.i-line{display: inline}
+
+/*POSITION*/
+.rel{position:relative}
+
+/* TEXT */
+.uppercase{text-transform:uppercase}
+.txtCenter{text-align:center}
+.txtRight{text-align:right}
+.txtLeft{text-align:left}
+.txtJustify{text-align:justify}
+.underline,u{text-decoration:underline}
+.fsItalic,em{font-style:italic}
+.fsNormal{font-style:normal}
+.fwNormal{font-weight:normal}
+.fwBold,b,strong{font-weight:bold}
+.small,small{font-size:85%}
+.big{font-size:115%}
+
+/* HIDDEN */
+.hidden { display: none;}
+.invisible { visibility: hidden}
+
+/*SKIN - A personnaliser*/
+
+.dark-clr{/*couleur éventuelle foncé*/}
+.norm-clr{/*couleur normal*/}
+.link-clr{/*couleur lien*/}
+.special-clr{/*couleur spécial*/}
+
+body {font-size: 1em; line-height: 1}
+
+img {vertical-align: middle}
+
+::-moz-selection {background: #b3d4fc;text-shadow: none;}
+
+::selection { background: #b3d4fc;text-shadow: none;}
+
