@@ -14,8 +14,8 @@
 
 /* reset */
 .resetM{margin:0}
-.resetRight{margin-right:0;}
-.resetLeft{margin-left:0;}
+.resetML{margin-right:0;}
+.resetMR{margin-left:0;}
 .resetP{padding:0}
 .resetBorder{border:0 none}
 .resetBg{background:none}
@@ -24,12 +24,27 @@
 .fright{float:right}
 .fleft{float:left}
 .clear{clear:both}
- .i-block{display:inline-block}
-.ie7 .i-block{display: inline}/*correct IE 7 bug inline-block*/
-.i-line{display: inline}
+ .iBlock{display:inline-block}
+.ie7 .iBlock{display: inline}/*correct IE 7 bug inline-block*/
+.iLine{display:inline}
+.row{display: block}
 
 /*POSITION*/
 .rel{position:relative}
+
+/*WIDTH*/
+
+.size1of1{float:none;}
+.size1of2{width:50%;}
+.size1of3{width:33.33333%;}
+.size2of3{width:66.66666%;}
+.size1of4{width:25%;}
+.size3of4{width:75%;}
+.size1of5{width:20%;}
+.size2of5{width:40%;}
+.size3of5{width:60%;}
+.size4of5{width:80%;}
+
 
 /* TEXT */
 .uppercase{text-transform:uppercase}
