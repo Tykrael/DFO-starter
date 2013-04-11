@@ -1,3 +1,16 @@
 Initialisation projet Novedia
 
 Feuilles de styles reset etc
+
+MODERNIZR : (http://modernizr.com/)
+
+1/Ne pas oublier de mettre a jour modernizr si besoin
+
+2/Ne pas oublier de customiser son build:
+sur la plupart des projets nous n'avons besoin que de quelques fonctionnalités, 
+ce qui permet d'alléger le poids du fichier de plus de 50%...
+
+3/ Ne pas oublier d'utiliser le chargement conditionel proposé par modernizr via yepnope.js (http://yepnopejs.com/)
+Pour les versions mobiles par exemple cela permet de ne charger que les scripts nécessaires et ainsi optimiser les perf
+
+
