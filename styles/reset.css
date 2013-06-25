@@ -12,6 +12,7 @@ blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
 a:hover,a:active,a,object, embed{outline:0}
+a{text-decoration: none}
 
 img{display:block;border:0 none;-ms-interpolation-mode:bicubic}
 label{cursor:pointer}
@@ -25,7 +26,7 @@ input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-b
 input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
 button::-moz-focus-inner, input::-moz-focus-inner { border: 0 none; padding: 0; }
 textarea { overflow: auto; vertical-align: top; resize: vertical; }
-
+button, input { line-height: normal; -webkit-border-radius:0} /*remove radius from iphone button*/
 /**
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
  *    and `video` controls.
@@ -43,3 +44,5 @@ input[type="submit"] { -webkit-appearance: button; /* 2 */ cursor: pointer; /* 3
 
 /* Reset des titres */
 h1,h2,h3,h4,h5,h6{ font-size:1em; font-weight:normal;}
+
+body,html{margin:0;padding:0;}
