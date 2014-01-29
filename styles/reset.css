@@ -5,18 +5,15 @@ th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,
 output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0 none;font-size:100%;font:inherit}
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section, main{display:block}
-ol,ul{list-style:none}
-ul,li{list-style:none;margin:0;padding:0}
-nav ul,nav ol{list-style:none;list-style-image:none;margin:0;padding:0}
+ol,ul,li{list-style:none;margin:0;padding:0}
 blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
 a:hover,a:active,a,object, embed{outline:0}
 a{text-decoration: none}
 
-img{display:block;border:0 none;-ms-interpolation-mode:bicubic}
+img{display:inline-block;border:0 none;-ms-interpolation-mode:bicubic}
 label{cursor:pointer}
-
 button, input, select, textarea {margin: 0; vertical-align: middle; *vertical-align: middle; border:0 none; outline: none;}
 button, input { line-height: normal; }
 button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
@@ -43,6 +40,6 @@ input[type="reset"],
 input[type="submit"] { -webkit-appearance: button; /* 2 */ cursor: pointer; /* 3 */*overflow: visible;  /* 4 */}
 
 /* Reset des titres */
-h1,h2,h3,h4,h5,h6{ font-size:1em; font-weight:normal;}
+h1,h2,h3,h4,h5,h6,a,p,li{font-size:1em; font-weight:normal}
 
-body,html{margin:0;padding:0;}
+body,html{margin:0;padding:0}

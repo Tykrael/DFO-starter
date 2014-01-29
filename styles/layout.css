@@ -1,13 +1,13 @@
-/**
- * Commons
- */
+/********************************/
+/*           COMMONS           */
+/******************************/
 
 /* Clearfix */
 .cf:before,.cf:after{content:"";display:table}
 .cf:after{clear:both}
 .cf{*zoom:1}
 
-/* ALIGNEMENT */
+/* ALIGNEMENT  VERTICAl*/
 .vTop{vertical-align:top}
 .vBot{vertical-align:bottom}
 .vMid{vertical-align:middle}
@@ -28,6 +28,7 @@
 .ie7 .iBlock{display: inline}/*correct IE 7 bug inline-block*/
 .iLine{display:inline}
 .row{display: block}
+.ovHid{overflow:hidden}
 
 /*POSITION*/
 .rel{position:relative}
@@ -46,7 +47,6 @@
 .size3of5{width:60%;}
 .size4of5{width:80%;}
 
-
 /* TEXT */
 .uppercase{text-transform:uppercase}
 .txtCenter{text-align:center}
@@ -59,20 +59,23 @@
 .fwNormal{font-weight:normal}
 .fwBold,b,strong{font-weight:bold}
 .small,small{font-size:85%}
-.big{font-size:115%}
+.big{font-size:125%}
 
 /* HIDDEN */
 .hidden { display: none;}
 .invisible { visibility: hidden}
 
 /*SKIN - A personnaliser*/
-
 .dark-clr{/*couleur éventuelle foncé*/}
 .norm-clr{/*couleur normal*/}
 .link-clr{/*couleur lien*/}
 .special-clr{/*couleur spécial*/}
 
-body {font-size: 1em; line-height: 1}
+body {font-size: 1em; line-height: 1; color:#000;}
+
+a,
+p,
+li{color:#000}
 
 img {vertical-align: middle}
 
@@ -80,3 +83,43 @@ img {vertical-align: middle}
 
 ::selection { background: #b3d4fc;text-shadow: none;}
 
+
+/********************************/
+/* BOX MODEL - box-sizing ie8+ */
+/******************************/
+
+* { 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+/********************************/
+/*           AUTHOR            */
+/******************************/
+
+
+
+/********************************/
+/*        MEDIA QUERIES        */
+/******************************/
+
+/*IPAD LANDSCAPE*/
+@media screen and (max-width: 1024px){
+
+}
+
+/*IPAD PORTRAIT*/
+@media screen and (max-width: 768px){
+
+}
+
+/*IPHONE 4*/
+@media screen and (max-width: 640px){
+
+}
+
+/*PETIT SMARTPHONE*/
+@media  screen and (max-width : 320px){
+
+}

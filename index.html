@@ -23,15 +23,24 @@
 </head>
 <body>
 
+<!-- Script en fin de page : meilleur perf -->
 
+<script>
+	yepnope([{
+	    load: [""], //fichier qu'on va loader dans tous les cas
+	        callback: function (url, result, key) {
+	        
+	        }
+	    },{
 
-
-
-	<!-- Script en fin de page : meilleur perf -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.1.min.js"><\/script>')</script>
-
-	<script src="js/libs.js"></script>
-	<script src="js/main.js"></script>
+	    test: Modernizr.touch,
+	    yep: ['http://code.jquery.com/jquery-2.1.0.min.js','js/libs-touch.js', 'js/main-touch.js'], // touch on load jquery 2
+	    nope: ['http://code.jquery.com/jquery-1.11.0.min.js','js/libs.js', 'js/main.js'],
+	        callback: function (url, result, key) {
+	            console.log(url, result, key);
+	        }      
+	}]);
+</script>
+   
 </body>
 </html>
