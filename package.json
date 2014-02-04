@@ -1,0 +1,15 @@
+{
+  "name": "test-grunt",
+  "version": "0.0.0",
+  "description": "test",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "load-grunt-tasks": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-imagemin": "~0.5.0",
+    "grunt-text-replace": "~0.3.10",
+    "grunt-contrib-htmlmin": "~0.1.3"
+  }
+}
