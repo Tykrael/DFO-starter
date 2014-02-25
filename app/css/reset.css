@@ -4,7 +4,7 @@ u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoo
 th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,
 output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0 none;font-size:100%;font:inherit}
 
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section, main{display:block}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main{display:block}
 ol,ul,li{list-style:none;margin:0;padding:0}
 blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
@@ -12,7 +12,7 @@ table{border-collapse:collapse;border-spacing:0}
 a:hover,a:active,a,object, embed{outline:0}
 a{text-decoration: none}
 
-img{display:inline-block;border:0 none;-ms-interpolation-mode:bicubic}
+img{border:0 none;-ms-interpolation-mode:bicubic}
 label{cursor:pointer}
 button, input, select, textarea {margin: 0; vertical-align: middle; *vertical-align: middle; border:0 none; outline: none;}
 button, input { line-height: normal; }
@@ -41,5 +41,3 @@ input[type="submit"] { -webkit-appearance: button; /* 2 */ cursor: pointer; /* 3
 
 /* Reset des titres */
 h1,h2,h3,h4,h5,h6,a,p,li{font-size:1em; font-weight:normal}
-
-body,html{margin:0;padding:0}

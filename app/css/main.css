@@ -1,34 +1,73 @@
+.cf:before,.cf:after{content:"";display:table}
+.cf:after{clear:both}
+.cf{*zoom:1}
+/* ALIGNEMENT */
+.vTop{vertical-align:top}
+.vBot{vertical-align:bottom}
+.vMid{vertical-align:middle}
+/* RESET/CANCELLING */
+.resetM{margin:0}
+.resetML{margin-left:0;}
+.resetMR{margin-right:0;}
+.resetP{padding:0}
+.resetBorder{border:0 none}
+.resetBg{background:none}
+/* FLUX */
+.fright{float:right}
+.fleft{float:left}
+.clear{clear:both}
+ .iBlock{display:inline-block}
+ .ie7 .iBlock{display: inline}/*correct IE 7 bug inline-block*/
+ .iLine{display:inline}
+.row{display: block}
+/*POSITION*/
+.rel{position:relative}
+.center{margin: 0 auto}
+/*WIDTH*/
+.full{width:100%}
+.size1of2{width:50%}
+.size1of3{width:33.33333%}
+.size2of3{width:66.66666%}
+.size1of4{width:25%}
+.size3of4{width:75%}
+.size1of5{width:20%}
+.size2of5{width:40%}
+.size3of5{width:60%}
+.size4of5{width:80%}
+
+/* TEXT */
+.uppercase{text-transform:uppercase}
+.txtCenter{text-align:center}
+.txtRight{text-align:right}
+.txtLeft{text-align:left}
+.txtJustify{text-align:justify}
+.underline,u{text-decoration:underline}
+.italic,em{font-style:italic}
+.bold,b,strong{font-weight:bold}
+.small,small{font-size:80%}
+.big{font-size:120%}
+
+/* HIDDEN */
+.hidden { display: none;}
+.invisible { visibility: hidden}
+
+/*IMG*/
+img {vertical-align: middle}
+
+/*SELECTION*/
+::-moz-selection {background: #fbc2ff;text-shadow: none}
+::selection { background: #fbc2ff;text-shadow: none}
+
+/*AUTHOR*/
+
+*,*:before,*:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;   
+    box-sizing: border-box
+}
+
 body {
-    background: #fafafa;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
+    font-size: 1em; 
+    line-height: 1
 }
 
-.hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 30px;
-    background-color: #eee;
-    border-radius: 6px;
-    padding: 60px;
-}
-
-.hero-unit h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
-}
-
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-
-.test{
-    transition: all 0.5s ease;
-}
